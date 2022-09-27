@@ -3,6 +3,7 @@ import plotly.express as px
 import plotly.figure_factory as ff
 import streamlit as st
 import streamlit.components.v1 as components
+import shap
 
 # Display Wal-Mart Labs logo.
 st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Walmart_Labs_logo.svg/1024px-Walmart_Labs_logo.svg.png" )
@@ -149,7 +150,9 @@ with tab3:
         # Include a plot for local and global explanability!
      
     st.header(model1_select)
+    explainer = shap.Explainer(svm_model)   
+    shap_values = explainer(train_df[1]) 
+    st.show(shap.plot(shap_values))
     
     st.header(model2_select)
 
-    
