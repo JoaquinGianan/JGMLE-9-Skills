@@ -150,9 +150,9 @@ with tab3:
         # Include a plot for local and global explanability!
      
     st.header(model1_select)
-    explainer = shap.Explainer(svm_model)   
-    shap_values = explainer(train_df[1]) 
-    st.show(shap.plot(shap_values))
+    #explainer = shap.Explainer(svm_model)   
+    #shap_values = explainer(train_df[1]) 
+    #st.write(shap.plot(shap_values))
     
     st.header(model2_select)
 
