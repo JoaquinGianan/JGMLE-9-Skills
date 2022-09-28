@@ -3,6 +3,7 @@ JG_reddit_secret.py
 # some personal files and directories to play with
 /JG_playground
 *.jg
+JG_play_*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
