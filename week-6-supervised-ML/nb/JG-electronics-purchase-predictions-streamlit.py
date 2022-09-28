@@ -5,6 +5,8 @@ import streamlit as st
 import streamlit.components.v1 as components
 import shap
 
+# run this file from the nb directory: streamlit run JG-electronics-purchase-predictions-streamlit.py
+
 # Display Wal-Mart Labs logo.
 st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Walmart_Labs_logo.svg/1024px-Walmart_Labs_logo.svg.png" )
 
@@ -148,6 +150,7 @@ with tab3:
         # Use tab2 as a guide!  
         # Use columns to separate visualizations for models
         # Include a plot for local and global explanability!
+        # can import the models (pickle) and the cleaned data (must save it also as we do the final eda)
      
     st.header(model1_select)
     #explainer = shap.Explainer(svm_model)   

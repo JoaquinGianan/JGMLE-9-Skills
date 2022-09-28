@@ -1,5 +1,9 @@
 JG_reddit_secret.py
 
+# some personal files and directories to play with
+/JG_playground
+*.jg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
