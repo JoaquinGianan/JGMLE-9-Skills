@@ -4,6 +4,7 @@ JG_reddit_secret.py
 /JG_playground
 *.jg
 JG_play*
+/JG_files
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
