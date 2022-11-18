@@ -1,0 +1,11 @@
+version = 0.1
+[y]
+[y.deploy]
+[y.deploy.parameters]
+stack_name = "jg-lambda-test"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-pcatkpeq1n2w"
+s3_prefix = "jg-lambda-test"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["SentimentFunction=681261969843.dkr.ecr.us-east-1.amazonaws.com/jglambdatest1e41b3fe/sentimentfunction35d37012repo"]
