@@ -1,4 +1,4 @@
-# JGMLE-9-Assignments
-Repository for weekly assignments
+# JGMLE - MLE Skill Development
+Repository for Core MLE Tools and Skills
 
-and for skills development
+Based on FourthBrain's MLE Course
